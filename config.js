@@ -13,7 +13,7 @@ module.exports = {
   activityName: "Our Home Music", 
   activityType: "LISTENING",  // Available activity types : LISTENING , PLAYING
   SupportServer: "https://discord.gg/xQF9f9yUEM",
-  embedTimeout: 5, 
+  embedTimeout: 0, 
   errorLog: "", 
   nodes: [
      {
