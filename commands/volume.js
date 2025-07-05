@@ -15,7 +15,6 @@ async function volume(client, interaction, lang) {
                     iconURL: musicIcons.alertIcon,
                     url: config.SupportServer
                 })
-                .setFooter({ text: lang.footer, iconURL: musicIcons.heartIcon })
                 .setDescription(lang.volume.embed.noActivePlayerDescription);
 
             await interaction.reply({ embeds: [errorEmbed], ephemeral: true });
